@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/balconyLadder_bottom.obj-0cea58ef11b112c15e64266948fc65dd.mesh"
+
+[deps]
+
+files=[ "res://.import/balconyLadder_bottom.obj-0cea58ef11b112c15e64266948fc65dd.mesh" ]
+
+source_file="res://assets/Models/OBJ format/balconyLadder_bottom.obj"
+dest_files=[ "res://.import/balconyLadder_bottom.obj-0cea58ef11b112c15e64266948fc65dd.mesh", "res://.import/balconyLadder_bottom.obj-0cea58ef11b112c15e64266948fc65dd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

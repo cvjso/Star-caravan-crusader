@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detailLight_single.obj-8b6394719cd920614cd3ea7bb7ed59dd.mesh"
+
+[deps]
+
+files=[ "res://.import/detailLight_single.obj-8b6394719cd920614cd3ea7bb7ed59dd.mesh" ]
+
+source_file="res://assets/Models/OBJ format/detailLight_single.obj"
+dest_files=[ "res://.import/detailLight_single.obj-8b6394719cd920614cd3ea7bb7ed59dd.mesh", "res://.import/detailLight_single.obj-8b6394719cd920614cd3ea7bb7ed59dd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

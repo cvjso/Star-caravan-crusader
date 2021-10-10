@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/truck_alien.png-1da98e15c0e3cdce3187621147c80b0f.s3tc.stex"
+path.etc2="res://.import/truck_alien.png-1da98e15c0e3cdce3187621147c80b0f.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://assets/Models/FBX format/Textures/truck_alien.png"
+dest_files=[ "res://.import/truck_alien.png-1da98e15c0e3cdce3187621147c80b0f.s3tc.stex", "res://.import/truck_alien.png-1da98e15c0e3cdce3187621147c80b0f.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=false
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=1
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

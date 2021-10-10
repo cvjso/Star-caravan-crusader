@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Car_Engine_Turning_Off.ogg-af4cc0a58cdf48cf7b9ef7ce24d8ffd2.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Car_Engine_Turning_Off.ogg"
+dest_files=[ "res://.import/Car_Engine_Turning_Off.ogg-af4cc0a58cdf48cf7b9ef7ce24d8ffd2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

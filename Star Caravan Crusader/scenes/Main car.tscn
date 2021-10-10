@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/Car 02/Car2.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://scripts/Main car.gd" type="Script" id=2]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 1.19207, 0.697775, 3.24929 )
+
+[sub_resource type="CylinderShape" id=2]
+radius = 0.404447
+height = 2.4828
+
+[node name="Main car" type="KinematicBody" groups=[
+"CAR player",
+]]
+script = ExtResource( 2 )
+
+[node name="Car2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1, 0, 0, 0 )
+mesh = ExtResource( 1 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.33923, 0.0956931 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2" type="CollisionShape" parent="."]
+transform = Transform( -4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91069e-15, 0, 0.431458, 1.89663 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape3" type="CollisionShape" parent="."]
+transform = Transform( -4.37114e-08, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, -4.37114e-08, 1.91069e-15, 0, 0.431458, -1.80549 )
+shape = SubResource( 2 )
+
+[node name="camera follower" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.83375, 6.29966 )
+
+[node name="luzfrente" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.996348, 0.0853821, 0, -0.0853821, 0.996348, 0.821993, 1.10295, -3.06438 )
+spot_range = 20.0
+spot_angle = 21.4358
+
+[node name="luzfrente2" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.996348, 0.0853821, 0, -0.0853821, 0.996348, -0.807082, 1.10295, -3.06438 )
+spot_range = 20.0
+spot_angle = 21.4358
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.59421, 1.60504 )
+omni_range = 6.0
+
+[node name="luztras" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.882966, 1.1645, 3.22767 )
+light_energy = 2.0
+omni_range = 0.271379
+
+[node name="luztras2" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.895396, 1.1645, 3.22767 )
+light_energy = 2.0
+omni_range = 0.271379
+
+[node name="Tween" type="Tween" parent="."]

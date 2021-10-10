@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/smg-mp5x.obj-1a7de3973a5ecd32e2f8cd2bf665dc60.mesh"
+
+[deps]
+
+files=[ "res://.import/smg-mp5x.obj-1a7de3973a5ecd32e2f8cd2bf665dc60.mesh" ]
+
+source_file="res://assets/guns/obj_mtl/smg-mp5x.obj"
+dest_files=[ "res://.import/smg-mp5x.obj-1a7de3973a5ecd32e2f8cd2bf665dc60.mesh", "res://.import/smg-mp5x.obj-1a7de3973a5ecd32e2f8cd2bf665dc60.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,88 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scenes/Player Person.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/Map Test.gd" type="Script" id=3]
+[ext_resource path="res://assets/room layout.png" type="Texture" id=4]
+[ext_resource path="res://scenes/Enemy.tscn" type="PackedScene" id=5]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+uniform bool flip ;
+uniform sampler2D gradient : hint_black; // It can be whatever palette you want
+
+
+void fragment(){ 
+	vec4 col = texture(SCREEN_TEXTURE,SCREEN_UV);
+	// 0.2126,0.7152,0.0722
+	float lum = dot(col.rgb,vec3(0.2126,0.7152,0.0722)); // luminance
+	
+	
+	col = texture(gradient,vec2(abs(float(flip) - lum),0));
+	
+	
+	COLOR = col;
+}"
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 0, 0.57513, 0.746114, 0.896373 )
+colors = PoolColorArray( 0, 0.188235, 0.231373, 1, 1, 0.466667, 0.466667, 1, 1, 0.807843, 0.588235, 1, 0.945098, 0.94902, 0.854902, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 2 )
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = SubResource( 1 )
+shader_param/flip = false
+shader_param/gradient = SubResource( 3 )
+
+[sub_resource type="NavigationMesh" id=5]
+
+[node name="Map Test" type="Spatial"]
+script = ExtResource( 3 )
+GAME_VIEW = "Player"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource( 4 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Player Person" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 120, 0 )
+current = true
+far = 200.0
+
+[node name="minimap" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="room" type="Sprite" parent="minimap"]
+position = Vector2( 278.706, 27.1135 )
+texture = ExtResource( 4 )
+hframes = 2
+frame = 1
+
+[node name="Navigation" type="Navigation" parent="."]
+
+[node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="Navigation"]
+navmesh = SubResource( 5 )
+
+[node name="Enemy" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 24 )
+
+[node name="Camera" type="Camera" parent="Enemy"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0 )
+current = true
+
+[editable path="Player Person"]

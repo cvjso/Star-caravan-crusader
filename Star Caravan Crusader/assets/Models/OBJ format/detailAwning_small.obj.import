@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detailAwning_small.obj-115a7d196c1aeeccd0826825f1d3aa82.mesh"
+
+[deps]
+
+files=[ "res://.import/detailAwning_small.obj-115a7d196c1aeeccd0826825f1d3aa82.mesh" ]
+
+source_file="res://assets/Models/OBJ format/detailAwning_small.obj"
+dest_files=[ "res://.import/detailAwning_small.obj-115a7d196c1aeeccd0826825f1d3aa82.mesh", "res://.import/detailAwning_small.obj-115a7d196c1aeeccd0826825f1d3aa82.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

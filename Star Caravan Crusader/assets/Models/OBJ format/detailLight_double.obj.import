@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detailLight_double.obj-9ad1f80f28fe8f176629fe53314ac261.mesh"
+
+[deps]
+
+files=[ "res://.import/detailLight_double.obj-9ad1f80f28fe8f176629fe53314ac261.mesh" ]
+
+source_file="res://assets/Models/OBJ format/detailLight_double.obj"
+dest_files=[ "res://.import/detailLight_double.obj-9ad1f80f28fe8f176629fe53314ac261.mesh", "res://.import/detailLight_double.obj-9ad1f80f28fe8f176629fe53314ac261.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

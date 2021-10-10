@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallFence.obj-8dd5898f38abfe9f8c46135f2f1fc4df.mesh"
+
+[deps]
+
+files=[ "res://.import/wallFence.obj-8dd5898f38abfe9f8c46135f2f1fc4df.mesh" ]
+
+source_file="res://assets/Models/OBJ format/wallFence.obj"
+dest_files=[ "res://.import/wallFence.obj-8dd5898f38abfe9f8c46135f2f1fc4df.mesh", "res://.import/wallFence.obj-8dd5898f38abfe9f8c46135f2f1fc4df.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

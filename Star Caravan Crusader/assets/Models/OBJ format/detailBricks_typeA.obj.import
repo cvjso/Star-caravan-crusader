@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detailBricks_typeA.obj-fcd48cc8cd09c3fca87b045ed2276707.mesh"
+
+[deps]
+
+files=[ "res://.import/detailBricks_typeA.obj-fcd48cc8cd09c3fca87b045ed2276707.mesh" ]
+
+source_file="res://assets/Models/OBJ format/detailBricks_typeA.obj"
+dest_files=[ "res://.import/detailBricks_typeA.obj-fcd48cc8cd09c3fca87b045ed2276707.mesh", "res://.import/detailBricks_typeA.obj-fcd48cc8cd09c3fca87b045ed2276707.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

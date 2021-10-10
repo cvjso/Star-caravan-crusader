@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detailBarrierStrong_damaged.obj-c372ca3895818e534276ec0d5166fbd8.mesh"
+
+[deps]
+
+files=[ "res://.import/detailBarrierStrong_damaged.obj-c372ca3895818e534276ec0d5166fbd8.mesh" ]
+
+source_file="res://assets/Models/OBJ format/detailBarrierStrong_damaged.obj"
+dest_files=[ "res://.import/detailBarrierStrong_damaged.obj-c372ca3895818e534276ec0d5166fbd8.mesh", "res://.import/detailBarrierStrong_damaged.obj-c372ca3895818e534276ec0d5166fbd8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

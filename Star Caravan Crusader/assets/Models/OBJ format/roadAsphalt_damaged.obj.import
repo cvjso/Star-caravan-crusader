@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/roadAsphalt_damaged.obj-069ea41628d94350ced6de39115cb22e.mesh"
+
+[deps]
+
+files=[ "res://.import/roadAsphalt_damaged.obj-069ea41628d94350ced6de39115cb22e.mesh" ]
+
+source_file="res://assets/Models/OBJ format/roadAsphalt_damaged.obj"
+dest_files=[ "res://.import/roadAsphalt_damaged.obj-069ea41628d94350ced6de39115cb22e.mesh", "res://.import/roadAsphalt_damaged.obj-069ea41628d94350ced6de39115cb22e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Car_Hood_Close.ogg-8a032a5eadeb4a9ef4000d5aa6fc68ee.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Car_Hood_Close.ogg"
+dest_files=[ "res://.import/Car_Hood_Close.ogg-8a032a5eadeb4a9ef4000d5aa6fc68ee.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

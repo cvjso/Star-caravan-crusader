@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wallA_flat.obj-df52a96f90608dc9e543fe93084da175.mesh"
+
+[deps]
+
+files=[ "res://.import/wallA_flat.obj-df52a96f90608dc9e543fe93084da175.mesh" ]
+
+source_file="res://assets/Models/OBJ format/wallA_flat.obj"
+dest_files=[ "res://.import/wallA_flat.obj-df52a96f90608dc9e543fe93084da175.mesh", "res://.import/wallA_flat.obj-df52a96f90608dc9e543fe93084da175.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

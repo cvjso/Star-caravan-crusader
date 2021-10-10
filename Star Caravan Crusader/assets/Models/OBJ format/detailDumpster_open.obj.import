@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/detailDumpster_open.obj-e1524ec5c99b09c5c9035b124d81358c.mesh"
+
+[deps]
+
+files=[ "res://.import/detailDumpster_open.obj-e1524ec5c99b09c5c9035b124d81358c.mesh" ]
+
+source_file="res://assets/Models/OBJ format/detailDumpster_open.obj"
+dest_files=[ "res://.import/detailDumpster_open.obj-e1524ec5c99b09c5c9035b124d81358c.mesh", "res://.import/detailDumpster_open.obj-e1524ec5c99b09c5c9035b124d81358c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

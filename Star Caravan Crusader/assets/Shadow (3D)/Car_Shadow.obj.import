@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Car_Shadow.obj-86cb8bd3df27e19faec0b4a11655c4f4.mesh"
+
+[deps]
+
+files=[ "res://.import/Car_Shadow.obj-86cb8bd3df27e19faec0b4a11655c4f4.mesh" ]
+
+source_file="res://assets/Shadow (3D)/Car_Shadow.obj"
+dest_files=[ "res://.import/Car_Shadow.obj-86cb8bd3df27e19faec0b4a11655c4f4.mesh", "res://.import/Car_Shadow.obj-86cb8bd3df27e19faec0b4a11655c4f4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/treePine_large.obj-ca243fa9267a3be27ae9178bfe74d2e8.mesh"
+
+[deps]
+
+files=[ "res://.import/treePine_large.obj-ca243fa9267a3be27ae9178bfe74d2e8.mesh" ]
+
+source_file="res://assets/Models/OBJ format/treePine_large.obj"
+dest_files=[ "res://.import/treePine_large.obj-ca243fa9267a3be27ae9178bfe74d2e8.mesh", "res://.import/treePine_large.obj-ca243fa9267a3be27ae9178bfe74d2e8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
